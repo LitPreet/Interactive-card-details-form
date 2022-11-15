@@ -130,7 +130,7 @@ position: absolute;
     right: 60px;
     bottom: 105px;
 }
-input:focus
+input:focus-visible
 {
     outline: 0px solid hsl(249, 99%, 64%);
     border-top-color: hsl(249, 99%, 64%);
@@ -140,6 +140,8 @@ input:focus
    
   
 }
+
+
 form{
     position: relative;
     left: 150px;
@@ -245,6 +247,13 @@ max-width: 60px;
     letter-spacing: 2px;
     border: 1px solid black;
 
+}
+.cvc-input:focus-visible{
+    margin-top: 10px;
+    width: 90px;
+    padding: 7px 10px ;
+    letter-spacing: 2px;
+    border: 1px solid black;
 }
 #submit
 {
